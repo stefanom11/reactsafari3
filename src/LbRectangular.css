@@ -1,0 +1,14 @@
+.LbRectangular {
+    text-align: center;
+    margin: auto;
+    display: table;
+}
+
+.LbRectangular-label{
+    display: table-cell;
+    vertical-align: middle;
+    display: inline-block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}

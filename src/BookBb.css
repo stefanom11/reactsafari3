@@ -1,0 +1,10 @@
+.BookBb-header {
+    text-align: center;
+    margin: auto;
+    display: table;
+}
+
+.BookBb-title{
+    display: table-cell;
+    vertical-align: middle;
+}

@@ -1,0 +1,56 @@
+.HomeBa {
+    position: relative;
+    height: 600px;
+  }
+  
+  .HomeBa-content {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: auto;
+    -webkit-transform: translateZ(0);
+    -webkit-overflow-scrolling: touch; 
+  }
+  
+  .Button-left{
+    position: absolute;
+    left: 0%;
+    top: 40%;
+    width: 25px;
+    height: 25px;
+    z-index: 2;
+    margin-left: 5px;
+    color: rgb(94, 31, 242)
+  }
+  
+  .Button-right {
+    position: absolute;
+    right: 0;
+    top: 40%;
+    width: 25px;
+    height: 25px;
+    z-index:2;
+    margin-right: 5px;
+    color: rgb(94, 31, 242)
+  }
+  
+  .HomeBa-fixiOS {
+    background-color:transparent;
+    position: absolute;
+    bottom: 0px;
+  }
+  
+  @supports (-webkit-overflow-scrolling: touch) {
+    
+  }
+  @supports not (-webkit-overflow-scrolling: touch) {
+    .noniOS-hidden {
+        display:none;
+    }
+  }
+  
+  .HomeBa-hidescrollbar {
+    background-color: white;
+    position: absolute;
+    bottom: 0px;
+  }

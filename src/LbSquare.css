@@ -1,0 +1,20 @@
+.LbSquare {
+    text-align: center;
+    margin: auto;
+    display: table;
+}
+
+.LbSquare-label{
+    display: table-cell;
+    vertical-align: middle;
+    display: inline-block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.LbSquare-input {
+    width: 0;
+    height: 0;
+    border-style: none;
+}

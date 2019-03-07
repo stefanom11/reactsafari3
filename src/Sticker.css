@@ -1,0 +1,13 @@
+.sticker {
+    background-color:rgba(157, 154, 249, 0.3);
+    color: white;
+    text-align: center;
+    margin: auto;
+    display: table;
+}
+
+
+.sticker-text {
+    display: table-cell;
+    vertical-align: middle;
+}
